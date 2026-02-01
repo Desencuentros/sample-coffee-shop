@@ -490,9 +490,20 @@ main {
   gap: 16px;
 }
 
+.ambience-stats div {
+  background: var(--panel-bg);
+  border-radius: 18px;
+  padding: 18px 20px;
+  border: 1px solid var(--line-light);
+  box-shadow: 0 12px 24px rgba(31, 23, 20, 0.12);
+}
+
 .ambience-stats span {
-  font-size: 1.6rem;
-  font-weight: 600;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--espresso);
+  display: block;
+  margin-bottom: 4px;
 }
 
 .ambience-stats p {
