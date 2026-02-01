@@ -243,6 +243,14 @@ main {
   animation: fadeUp 1s ease 0.2s both;
 }
 
+.monthly-drink img {
+  width: 100%;
+  height: 200px;
+  border-radius: 18px;
+  object-fit: cover;
+  border: 1px solid var(--line-light);
+}
+
 .hero-media {
   margin: 16px 0 24px;
 }
