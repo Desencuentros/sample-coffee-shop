@@ -177,11 +177,19 @@ main {
 
 .hero {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
   gap: 40px;
   align-items: center;
   margin-bottom: 80px;
   animation: fadeUp 0.8s ease;
+}
+
+.hero-content {
+  grid-column: 1 / 2;
+}
+
+.hero-card {
+  grid-column: 2 / 3;
 }
 
 .eyebrow {
@@ -243,16 +251,14 @@ main {
   animation: fadeUp 1s ease 0.2s both;
 }
 
-.monthly-drink img {
+.hero-media-full {
+  grid-column: 1 / -1;
   width: 100%;
-  height: 200px;
-  border-radius: 18px;
-  object-fit: cover;
-  border: 1px solid var(--line-light);
+  margin: 0 0 24px;
 }
 
-.hero-media {
-  margin: 16px 0 24px;
+.hero-media-full img {
+  border-radius: 0;
 }
 
 .hero-media img {
