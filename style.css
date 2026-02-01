@@ -243,9 +243,13 @@ main {
   animation: fadeUp 1s ease 0.2s both;
 }
 
+.hero-media {
+  margin: 16px 0 24px;
+}
+
 .hero-media img {
   width: 100%;
-  height: clamp(260px, 40vw, 420px);
+  height: clamp(220px, 32vw, 360px);
   border-radius: 28px;
   object-fit: cover;
   box-shadow: var(--shadow);
