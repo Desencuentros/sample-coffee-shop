@@ -333,6 +333,40 @@ main {
   color: var(--copper);
 }
 
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: var(--card-bg);
+  border-radius: 18px;
+  padding: 22px;
+  border: 1px solid var(--line-light);
+  box-shadow: 0 10px 30px rgba(31, 23, 20, 0.08);
+  display: grid;
+  gap: 14px;
+}
+
+.testimonial-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid rgba(58, 43, 36, 0.15);
+  object-fit: cover;
+}
+
+.testimonial-card p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.testimonial-card span {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
 .ambience-card {
   background: var(--ambience-bg);
   border-radius: 28px;
